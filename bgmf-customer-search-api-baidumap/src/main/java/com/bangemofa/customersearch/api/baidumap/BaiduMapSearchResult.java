@@ -28,8 +28,8 @@ public class BaiduMapSearchResult {
         private float lat;
         private float lng;
     }
-    
-    
+
+    @Data
     public static class DetailInfo{
         private int distance;
         private String city;

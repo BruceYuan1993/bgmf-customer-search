@@ -13,8 +13,6 @@ import com.bangemofa.customersearch.api.CustomerSearchService;
  *  个人开发者 日调用超量封停2000（次/日），20（次/秒）
  */
 public class AmapCustomerSearchService implements CustomerSearchService {
-
-    @Override
     public List<Customer> search(String area) {
         // TODO Auto-generated method stub
         return null;

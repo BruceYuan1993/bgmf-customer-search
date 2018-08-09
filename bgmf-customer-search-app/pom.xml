@@ -6,10 +6,4 @@
     <version>0.0.1</version>
   </parent>
   <artifactId>bgmf-customer-search-app</artifactId>
-  <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-  </dependencies>
 </project>

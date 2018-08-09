@@ -1,12 +1,13 @@
 package com.bangemofa.customersearch.app;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-@SpringBootApplication
 public class CustomerSearchApp {
+    private static final Logger logger = LoggerFactory.getLogger(CustomerSearchApp.class);
     public static void main(String[] args) {
-        SpringApplication.run(CustomerSearchApp.class, args);
+        logger.info("logback 成功了");
+        logger.error("logback 成功了");
     }
 }
