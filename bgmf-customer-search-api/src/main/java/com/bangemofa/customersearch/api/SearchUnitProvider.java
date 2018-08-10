@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by bruceyuan on 18-8-8.
  */
-public interface CityProvider {
+public interface SearchUnitProvider {
     //获取城市列表
-    List<City> get();
+    List<SearchUnit> get();
 }
