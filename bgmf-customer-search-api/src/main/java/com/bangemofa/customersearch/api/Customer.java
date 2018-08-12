@@ -5,6 +5,9 @@ import lombok.Data;
 @Data
 public class Customer {
     private String name;
-    private String mobile;
-    private String school;
+    private String address;
+    private String province;
+    private String city;
+    private String area;
+    private String telephone;
 }

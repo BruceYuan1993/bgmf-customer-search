@@ -1,0 +1,4 @@
+url: http://api.map.baidu.com/place/v2/search
+ak: 2w6LP75zGETvjEutkXdm4KUUDUY4Gp9N
+maxQPD: 2000
+maxQPS: 20
